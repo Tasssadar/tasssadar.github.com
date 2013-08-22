@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+ <rss version="2.0">
+ <!-- Hand-generated RSS, cool -->
+ <channel>
+   <title>MultiROM</title>
+   <link>http://tasssadar.github.io/mrom_status.html</link>
+   <description>Status of the MultiROM for flo</description>
+
+   <item>
+     <title>The campaign is funded!</title>
+     <link>http://tasssadar.github.io/mrom_status.html#the_campaign_is_funded</link>
+     <description>It's done! After 24 days, the campaign is now fully funded. Thank you all very much for your contributions and support.</description>
+     <pubDate>Thu, 22 Aug 2013 19:20:00 +0200</pubDate>
+     <guid>_TheCampaignIsFunded_</guid>
+   </item>
+
+ </channel>
+
+ </rss>
