@@ -8,6 +8,14 @@
    <atom:link href="http://tasssadar.github.io/mrom_status.xml" rel="self" type="application/rss+xml" />
 
    <item>
+     <title>MultiROM for flo was released</title>
+     <link>http://tasssadar.github.io/mrom_status.html#multirom_released</link>
+     <description>So, here we go: MultiROM v15 for flo was released.</description>
+     <pubDate>Mon, 24 Sep 2013 21:16:00 +0200</pubDate>
+     <guid>_MultiROMReleased_</guid>
+   </item>
+
+   <item>
      <title>Status update</title>
      <link>http://tasssadar.github.io/mrom_status.html#status_update</link>
      <description>Right now, most of MultiROM changes I wanted to do are complete and the kernel patch for flo is working.</description>
