@@ -49,34 +49,35 @@
 <p>Homepage: <a href="http://tasssadar.github.com/Lorris">http://tasssadar.github.com/Lorris</a><br>
 Repository: <a href="http://github.com/Tasssadar/Lorris">http://github.com/Tasssadar/Lorris</a></p>
 
+<h3>MultiROM</h3>
+
+<p>MultiROM is a multi-boot solution for several devices, I officially support Nexus 7 2012 &amp; 2013 and Nexus 4.</p>
+<p>It can boot any Android ROM as well as other systems like Ubuntu Touch, once they are ported to that device. Besides booting from device's internal memory, MultiROM can boot from USB drive connected to the device via OTG cable. The main part of MultiROM is a boot manager, which appears every time your device starts and lets you choose ROM to boot. You can see how it looks on the left image below and in gallery. ROMs are installed and managed via modified TWRP recovery. You can use standard ZIP files to install secondary Android ROMs and MultiROM even has its own installer system, which can be used to ship other Linux-based systems.</p>
+
+<p>XDA threads:</p>
+<ul>
+<li><a href="http://forum.xda-developers.com/showthread.php?t=2011403">Nexus 7 2012 (grouper)</a></li>
+<li><a href="http://forum.xda-developers.com/showthread.php?t=2457063">Nexus 7 2013 (flo)</a></li>
+<li><a href="http://forum.xda-developers.com/showthread.php?t=2472295">Nexus 4 (mako)</a></li>
+</ul>
+
+<p>Repositories:</p>
+<ul>
+<li>MultiROM: <a href="https://github.com/Tasssadar/multirom">multirom</a></li>
+<li>Modified TWRP recovery: <a href="https://github.com/Tasssadar/Team-Win-Recovery-Project">Team-Win-Recovery-Project</a></li>
+<li>Also several kernel repositories with kexec-hardboot patch and device folders</li>
+</ul>
+
+<h3>libbootimg</h3>
+Small C library to deal with Android's boot images. Contains also cli program <i>bbootimg</i>, which is abootimg-compatible interface to libbootimg. I needed a library to unpack/pack/update boot images in MultiROM, so I wrote one.
+
+<p>Repository: <a href="https://github.com/Tasssadar/libbootimg">https://github.com/Tasssadar/libbootimg</a></p>
+
 <h3>libenjoy</h3>
 
 <p>Small &amp; simple joystick library written in C for Linux and Windows. I've created it to get rid of SDL from Lorris, because I was using like 5% of that huge library, and it seemed kinda useless to drag it around, especially on Windows. See README<sup><small>md</small></sup>.</p>
 
 <p>Repository: <a href="http://github.com/Tasssadar/libenjoy">http://github.com/Tasssadar/libenjoy</a></p>
-
-<h3>MultiROM</h3>
-
-<p>MultiROM is a multi-boot solution for Google Nexus 7 and LG Optimus One.</p>
-<p><b>Nexus 7:</b> MultiROM can boot Android ROMs and Ubuntu. It uses kexec-hardboot patch to boot multiple kernels. It can boot either from internal memory or from the USB drive, connected via OTG cable. See the <a href="http://forum.xda-developers.com/showthread.php?t=2011403">XDA thread</a> for more info.</p>
-
-<p>Repositories:</p>
-<ul>
-<li>MultiROM binary: <a href="https://github.com/Tasssadar/multirom">multirom</a></li>
-<li>Installer: <a href="https://github.com/Tasssadar/multirom_installer">multirom_installer</a></li>
-<li>Modified TWRP recovery: <a href="https://github.com/Tasssadar/Team-Win-Recovery-Project">Team-Win-Recovery-Project</a></li>
-</ul>
-
-<p><b>LG Optimus One:</b> One ROM is in the external memory, other(s) are on the SD card. The most notable feature is boot manager, which allows you to choose ROM at boot time, and to play Tetris, even when your Android system is broken. See <a href="http://tasssadar.github.com/multirom/">homepage</a> and <a href="http://forum.xda-developers.com/showthread.php?t=1304656">XDA thread</a> for more info.</p>
-
-<p>Repositories:</p>
-<ul>
-<li>Modified init binary: <a href="https://github.com/Tasssadar/multirom/tree/master">multirom (branch "master")</a></li>
-<li>AnyRamdisk (installer): <a href="https://github.com/Tasssadar/AnyRamdisk">AnyRamdisk</a></li>
-<li>Modified CWM recovery: <a href="https://github.com/Tasssadar/recovery_cwm">recovery_cwm</a></li>
-<li>Modified AmonRa recovery: <a href="https://github.com/Tasssadar/Amon-Ra-Style-Recovery-Optimus_Lineup/tree/master">Amon-Ra-Style-Recovery-Optimus_Lineup</a></li>
-<li>Manager app: <a href="https://github.com/Tasssadar/MultiROMMgr">MultiROMMgr</a></li>
-</ul>
 
 
 <h3>Lorris_updater</h3>
